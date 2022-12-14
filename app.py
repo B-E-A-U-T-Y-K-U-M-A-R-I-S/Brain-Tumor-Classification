@@ -13,7 +13,7 @@ st.set_option('deprecation.showfileUploaderEncoding',False) #on loading a stream
 @st.cache(allow_output_mutation=True) #this line prevent us from loading the model again and again and will help in storing the model in cache once it has been loaded
 
 def load_model(): #loading our model
-  model = tf.keras.models.load_model('BrainTumorModel.h5')
+  model = tf.keras.models.load_model('BrainTumorModel .h5')
   return model
 
 model = load_model()
